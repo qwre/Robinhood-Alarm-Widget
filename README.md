@@ -8,7 +8,7 @@ Everything happens locally in your own tab.
 
 ---
 
-## Features
+## Features 🔥
 
 - Add price alarms for any symbol visible on Robinhood Web  
 - Uses only the HTML/JS that is already loaded in your browser  
