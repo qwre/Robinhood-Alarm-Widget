@@ -20,7 +20,7 @@
     </a>
     <a href="https://instagram.com/KULLANICI_ADI" target="_blank" style="display:inline-block;">
       <img 
-        src="https://icons8.com/icon/Xy10Jcu1L2Su/instagram"
+        src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000"
         width="42"
         style="vertical-align:middle;"
       />
