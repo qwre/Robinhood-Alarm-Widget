@@ -23,8 +23,6 @@ This project does **not**:
 - Send extra requests to Robinhood  
 - Bypass security or modify your account  
 - Store or upload your data
-
-Everything is local.
 <img width="1536" height="1024" alt="Widget" src="https://github.com/user-attachments/assets/ecd82722-9ea2-4d81-888c-07a6ba236dcb" />
 
 ## Contacts
