@@ -26,6 +26,6 @@ This project does **not**:
 <img width="1536" height="1024" alt="Widget" src="https://github.com/user-attachments/assets/ecd82722-9ea2-4d81-888c-07a6ba236dcb" />
 
 ## Contacts
-Telegram: @dxdraco
-IG: @pxinc
+- Telegram: @dxdraco  
+- IG: @pxinc
 
