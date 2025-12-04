@@ -1,11 +1,7 @@
 # Robinhood Alarm Widget 🟪
 
-Small, client-side alarm widget for **Robinhood Web**.  
+Client-side alarm widget for **Robinhood Web**.  
 It runs entirely in the browser, reads prices from the existing page DOM, and plays a sound when your target price is hit.
-
-No API keys. No extra requests to Robinhood servers.  
-Everything happens locally in your own tab.
-
 ---
 
 ## Features 🔥
@@ -20,9 +16,8 @@ Everything happens locally in your own tab.
 
 ## How it works
 
-1. You open a Robinhood stock page in your browser.  
-2. The widget reads the current price from the DOM (no API calls).  
-3. When the live price crosses your target price, a sound is played.  
+1. You open Robinhood Legends in your browser.  
+2. The widget reads the current price from the DOM (no API calls).
 
 This project does **not**:
 - Send extra requests to Robinhood  
