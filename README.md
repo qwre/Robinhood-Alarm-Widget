@@ -10,11 +10,7 @@
     ">
     Contacts
   </div>
-
-  <!-- Icons row -->
   <p style="display:flex; gap:10px;">
-
-    <!-- Telegram -->
     <a href="https://t.me/KULLANICI_ADIN" target="_blank" style="display:inline-block;">
       <img 
         src="https://img.icons8.com/?size=100&id=25n4hOEoY7ss&format=png&color=000000"
@@ -22,8 +18,6 @@
         style="vertical-align:middle;"
       />
     </a>
-
-    <!-- Instagram -->
     <a href="https://instagram.com/KULLANICI_ADI" target="_blank" style="display:inline-block;">
       <img 
         src="https://img.icons8.com/?size=100&id=WRrWnPAq4WVx&format=png&color=000000"
@@ -31,8 +25,6 @@
         style="vertical-align:middle;"
       />
     </a>
-
   </p>
-
 </div>
 
