@@ -1,4 +1,4 @@
-# Robinhood Alarm Widget
+# Robinhood Alarm Widget 🟪
 
 Small, client-side alarm widget for **Robinhood Web**.  
 It runs entirely in the browser, reads prices from the existing page DOM, and plays a sound when your target price is hit.
