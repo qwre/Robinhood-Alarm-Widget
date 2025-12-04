@@ -33,50 +33,6 @@ Everything is local.
 
 ---
 
-## Live demo
+<img width="689" height="472" alt="image" src="https://github.com/user-attachments/assets/9743aef7-65b0-40e8-b5bb-d6a97edf1cd3" />
 
-Once GitHub Pages is enabled for this repo:
 
-👉 **Demo:**  
-`https://qwre.github.io/Robinhood-Alarm-Widget/`
-
-(The page uses the same gradient background and a small “Alarms” panel like in the preview.)
-
----
-
-## Contacts
-
-<div align="left">
-
-  <div style="
-      font-size:18px;
-      font-weight:600;
-      margin-bottom:8px;
-      color:#ffffff;
-    ">
-    Contacts
-  </div>
-
-  <p style="display:flex; gap:10px; align-items:center;">
-
-    <!-- Telegram -->
-    <a href="https://t.me/KULLANICI_ADIN" target="_blank" style="display:inline-block;">
-      <img 
-        src="https://img.icons8.com/?size=100&id=25n4hOEoY7ss&format=png&color=000000"
-        width="42"
-        style="vertical-align:middle;"
-      />
-    </a>
-
-    <!-- Instagram -->
-    <a href="https://instagram.com/KULLANICI_ADI" target="_blank" style="display:inline-block;">
-      <img 
-        src="https://img.icons8.com/?size=100&id=WRrWnPAq4WVx&format=png&color=000000"
-        width="42"
-        style="vertical-align:middle;"
-      />
-    </a>
-
-  </p>
-
-</div>
