@@ -1,146 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Robinhood Alarm Widget – Preview</title>
-  <style>
-    :root {
-      --bg-top: #6fa9ff;
-      --bg-mid: #7868ff;
-      --bg-bottom: #8b46ff;
-      --card-bg1: #080c26;
-      --card-bg2: #05071a;
-      --text-main: #ffffff;
-      --text-sub: #8f96c7;
-      --accent: #19ff3b;
-      --divider: #363a63;
-    }
+# Robinhood Alarm Widget
 
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont,
-        "Segoe UI", sans-serif;
-    }
+Small, client-side alarm widget for **Robinhood Web**.  
+It runs entirely in the browser, reads prices from the existing page DOM, and plays a sound when your target price is hit.
 
-    body {
-      min-height: 100vh;
-      background: linear-gradient(
-        180deg,
-        var(--bg-top) 0%,
-        var(--bg-mid) 45%,
-        var(--bg-bottom) 100%
-      );
-      padding: 70px 0 0 110px; /* paneli sol üstte konumlandırma */
-    }
+No API keys. No extra requests to Robinhood servers.  
+Everything happens locally in your own tab.
 
-    .panel {
-      width: 520px;
-      height: 360px;
-      border-radius: 18px;
-      background: linear-gradient(135deg, var(--card-bg1), var(--card-bg2));
-      box-shadow:
-        0 26px 70px rgba(0, 0, 0, 0.55),
-        0 0 0 1px rgba(255, 255, 255, 0.03);
-      color: var(--text-main);
-      padding: 18px 24px;
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-    }
+---
 
-    .panel-header {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
+## Features
 
-    .panel-header-left {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-    }
+- Add price alarms for any symbol visible on Robinhood Web  
+- Uses only the HTML/JS that is already loaded in your browser  
+- No backend, no database, no extra infrastructure  
+- Sound alert when the target price is reached  
+- Lightweight UI with a dark, gradient background
 
-    .status-dot {
-      width: 14px;
-      height: 14px;
-      border-radius: 4px;
-      background: var(--accent);
-      box-shadow: 0 0 10px rgba(25, 255, 59, 0.7);
-    }
+---
 
-    .panel-title {
-      font-size: 19px;
-      font-weight: 500;
-    }
+## How it works
 
-    .panel-header-right {
-      display: flex;
-      gap: 10px;
-      font-size: 18px;
-      color: #c2c7ff;
-    }
+1. You open a Robinhood stock page in your browser.  
+2. The widget reads the current price from the DOM (no API calls).  
+3. When the live price crosses your target price, a sound is played.  
 
-    .panel-header-right span {
-      padding: 4px;
-      border-radius: 8px;
-      cursor: default;
-    }
+This project does **not**:
+- Send extra requests to Robinhood  
+- Bypass security or modify your account  
+- Store or upload your data
 
-    .panel-header-right span:hover {
-      background: rgba(255, 255, 255, 0.06);
-    }
+Everything is local.
 
-    .table-header {
-      display: grid;
-      grid-template-columns: 2fr 1.2fr 1.2fr 1.2fr;
-      font-size: 12px;
-      color: var(--text-sub);
-      padding: 6px 0 8px 0;
-      border-bottom: 1px solid var(--divider);
-    }
+---
 
-    .table-header span {
-      text-align: left;
-    }
+## Live demo
 
-    .table-body {
-      flex: 1;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--text-sub);
-      font-size: 13px;
-      opacity: 0.45;
-    }
-  </style>
-</head>
-<body>
+Once GitHub Pages is enabled for this repo:
 
-  <div class="panel">
-    <div class="panel-header">
-      <div class="panel-header-left">
-        <div class="status-dot"></div>
-        <div class="panel-title">Alarms</div>
-      </div>
-      <div class="panel-header-right">
-        <span>+</span>
-        <span>⋮</span>
-      </div>
-    </div>
+👉 **Demo:**  
+`https://qwre.github.io/Robinhood-Alarm-Widget/`
 
-    <div class="table-header">
-      <span>Symbol</span>
-      <span>Current price</span>
-      <span>Change %</span>
-      <span>Target price</span>
-    </div>
+(The page uses the same gradient background and a small “Alarms” panel like in the preview.)
 
-    <div class="table-body">
-      No alarms yet.
-    </div>
+---
+
+## Contacts
+
+<div align="left">
+
+  <div style="
+      font-size:18px;
+      font-weight:600;
+      margin-bottom:8px;
+      color:#ffffff;
+    ">
+    Contacts
   </div>
 
-</body>
-</html>
+  <p style="display:flex; gap:10px; align-items:center;">
+
+    <!-- Telegram -->
+    <a href="https://t.me/KULLANICI_ADIN" target="_blank" style="display:inline-block;">
+      <img 
+        src="https://img.icons8.com/?size=100&id=25n4hOEoY7ss&format=png&color=000000"
+        width="42"
+        style="vertical-align:middle;"
+      />
+    </a>
+
+    <!-- Instagram -->
+    <a href="https://instagram.com/KULLANICI_ADI" target="_blank" style="display:inline-block;">
+      <img 
+        src="https://img.icons8.com/?size=100&id=WRrWnPAq4WVx&format=png&color=000000"
+        width="42"
+        style="vertical-align:middle;"
+      />
+    </a>
+
+  </p>
+
+</div>
