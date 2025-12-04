@@ -33,6 +33,10 @@ Everything is local.
 
 ---
 
-<img width="689" height="472" alt="image" src="https://github.com/user-attachments/assets/9743aef7-65b0-40e8-b5bb-d6a97edf1cd3" />
 
+<img width="1536" height="1024" alt="Widget" src="https://github.com/user-attachments/assets/ecd82722-9ea2-4d81-888c-07a6ba236dcb" />
+
+## Contacts
+Telegram: @dxdraco
+IG: @pxinc
 
